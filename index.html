@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
     <title>GuessNumber</title>
 </head>
 <body>
-    
+    <header>
+        <h1>GuessNumber</h1>
+    </header>
+
+    <main>
+        <section id="jogo">
+            <form>
+                <h2>Digite um número (0-10):</h2>
+                <input type="number" id="num" placeholder="0">
+                <button type="submit">Jogar!</button>
+            </form>
+        </section>
+
+        <section id="resut">
+            <h2>Adivinhe o número sorteado!</h2>
+            <h3>Tentativas: <span id="tentativas">0</span></h3>
+        </section>
+    </main>
+
+    <aside>
+        <footer>
+            <span>GuessNumber, 2023 &copy;</span>
+        </footer>
+    </aside>
 </body>
 </html>

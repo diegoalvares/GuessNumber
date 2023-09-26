@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
@@ -12,5 +12,5 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(243, 243, 242);
+    background-color: rgb(224, 224, 223);
 }

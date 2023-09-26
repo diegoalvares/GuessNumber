@@ -1,0 +1,9 @@
+aside{
+    background-color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(78, 100, 221);
+}
