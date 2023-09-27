@@ -1,0 +1,9 @@
+.correto{
+    background-color: rgb(75, 185, 75);
+    color: white;
+}
+
+.errado{
+    background-color: red;
+    color: white;
+}
