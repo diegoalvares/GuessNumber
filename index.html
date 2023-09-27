@@ -25,10 +25,10 @@
         </section>
 
         <section id="result">
-            <h2>Adivinhe o número sorteado!</h2><br><br>
-            <h3>Tentativas: <span id="tentativas">0</span></h3>
+            <h2 id="aviso">Adivinhe o número sorteado!</h2><br><br>
+            <h3>Tentativas: <span id="tentativas" type="number">0</span></h3>
         </section>
-        <button id="restart">Jogar de novo</button>
+        <button id="restart" onclick="restartgame()">Jogar de novo</button>
     </main>
 
     <aside>
@@ -37,5 +37,5 @@
         </footer>
     </aside>
 </body>
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </html>
